@@ -1,0 +1,1336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page Not Found | Libra Scale World</title>
+<meta name="description" content="The page you requested could not be found.">
+<link rel="canonical" href="https://librascaleworld.com/404/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Libra Scale World">
+<meta property="og:title" content="Page Not Found | Libra Scale World">
+<meta property="og:description" content="The page you requested could not be found.">
+<meta property="og:url" content="https://librascaleworld.com/404/">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ============================= TOKENS ============================= */
+  :root{
+    --paper:#F5F6F7;
+    --surface:#FFFFFF;
+    --surface-2:#EEF0F2;
+    --ink:#14171A;
+    --ink-soft:#4B535A;
+    --ink-faint:#7B838A;
+    --line:#DBDFE2;
+    --line-soft:#E8EAEC;
+
+    --navy:#0E2A4A;
+    --navy-deep:#081A30;
+    --navy-tint:#E7ECF1;
+
+    --burgundy:#6B1626;
+    --burgundy-tint:#F3E4E6;
+
+    --ember:#B85C1E;
+    --ember-hover:#9C4B18;
+    --ember-tint:#F6E7DA;
+
+    --on-navy:#F3F5F7;
+    --on-navy-soft:#AFBECC;
+    --on-navy-line:rgba(243,245,247,0.16);
+
+    --radius-s:2px;
+    --radius-m:3px;
+    --shadow-card:0 1px 2px rgba(8,20,36,0.06);
+    --maxw:1240px;
+
+    --font-display:'Newsreader', 'Iowan Old Style', 'Georgia', serif;
+    --font-body:'IBM Plex Sans', -apple-system, 'Segoe UI', sans-serif;
+    --font-mono:'IBM Plex Mono', 'SFMono-Regular', monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#0B0E12;
+      --surface:#12161B;
+      --surface-2:#171C22;
+      --ink:#E9ECEF;
+      --ink-soft:#AAB3BB;
+      --ink-faint:#7C858D;
+      --line:#262D34;
+      --line-soft:#1D2329;
+
+      --navy:#122C48;
+      --navy-deep:#081627;
+      --navy-tint:#152B42;
+
+      --burgundy:#8A2B3C;
+      --burgundy-tint:#2A1519;
+
+      --ember:#D9812E;
+      --ember-hover:#E8A052;
+      --ember-tint:#2C1E10;
+
+      --on-navy:#EEF1F4;
+      --on-navy-soft:#9FB0C0;
+      --on-navy-line:rgba(238,241,244,0.14);
+
+      --shadow-card:0 1px 2px rgba(0,0,0,0.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#0B0E12;
+    --surface:#12161B;
+    --surface-2:#171C22;
+    --ink:#E9ECEF;
+    --ink-soft:#AAB3BB;
+    --ink-faint:#7C858D;
+    --line:#262D34;
+    --line-soft:#1D2329;
+
+    --navy:#122C48;
+    --navy-deep:#081627;
+    --navy-tint:#152B42;
+
+    --burgundy:#8A2B3C;
+    --burgundy-tint:#2A1519;
+
+    --ember:#D9812E;
+    --ember-hover:#E8A052;
+    --ember-tint:#2C1E10;
+
+    --on-navy:#EEF1F4;
+    --on-navy-soft:#9FB0C0;
+    --on-navy-line:rgba(238,241,244,0.14);
+
+    --shadow-card:0 1px 2px rgba(0,0,0,0.4);
+  }
+
+  /* ============================= RESET / BASE ============================= */
+  *,*::before,*::after{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--font-body);font-size:16px;line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  ul{margin:0;padding:0;list-style:none;}
+  h1,h2,h3,h4{font-family:var(--font-display);font-weight:500;margin:0;text-wrap:balance;color:var(--ink);}
+  p{margin:0;}
+  button{font-family:inherit;cursor:pointer;}
+  :focus-visible{outline:2px solid var(--ember);outline-offset:2px;}
+  ::selection{background:var(--ember-tint);color:var(--ink);}
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:0.001ms !important;animation-iteration-count:1 !important;transition-duration:0.001ms !important;scroll-behavior:auto !important;}
+  }
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px;}
+  @media (max-width:720px){.wrap{padding:0 20px;}}
+
+  .eyebrow{
+    font-family:var(--font-mono);font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--ember);font-weight:600;
+  }
+  .eyebrow.on-navy{color:var(--on-navy-soft);}
+  .eyebrow.burgundy{color:var(--burgundy);}
+
+  .lede{font-size:1.15rem;line-height:1.65;color:var(--ink-soft);max-width:62ch;}
+
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:var(--font-body);font-weight:600;font-size:14.5px;
+    padding:13px 22px;border-radius:var(--radius-s);border:1px solid transparent;
+    transition:background .15s ease, color .15s ease, border-color .15s ease;
+    white-space:nowrap;
+  }
+  .btn-primary{background:var(--ember);color:#fff;}
+  .btn-primary:hover{background:var(--ember-hover);}
+  .btn-ghost-navy{border-color:var(--on-navy-line);color:var(--on-navy);}
+  .btn-ghost-navy:hover{background:var(--on-navy-line);}
+  .btn-outline{border-color:var(--line);color:var(--ink);background:var(--surface);}
+  .btn-outline:hover{border-color:var(--ink-soft);}
+  .btn-text{color:var(--navy);font-weight:600;font-size:14.5px;display:inline-flex;align-items:center;gap:6px;}
+  :root[data-theme="dark"] .btn-text, @media (prefers-color-scheme:dark){.btn-text{color:var(--ember);}}
+  .btn-text .arrow{transition:transform .15s ease;}
+  .btn-text:hover .arrow{transform:translateX(3px);}
+
+  .tag{
+    font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--ink-faint);border:1px solid var(--line);border-radius:100px;padding:4px 10px;
+  }
+
+  hr.rule{border:none;border-top:1px solid var(--line);margin:0;}
+
+  /* ============================= HEADER ============================= */
+  #site-header{
+    position:sticky;top:0;z-index:50;background:var(--navy);border-bottom:1px solid var(--navy-deep);
+  }
+  .header-inner{display:flex;align-items:center;justify-content:space-between;height:76px;gap:24px;}
+  .brand{display:flex;align-items:center;gap:12px;color:var(--on-navy);}
+  .brand-mark{
+    width:36px;height:36px;flex:none;border:1.5px solid var(--ember);border-radius:1px;
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--font-display);font-size:17px;color:var(--ember);
+  }
+  .brand-text{display:flex;flex-direction:column;line-height:1.15;}
+  .brand-name{font-family:var(--font-display);font-size:16.5px;letter-spacing:.02em;color:var(--on-navy);}
+  .brand-tag{font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;color:var(--on-navy-soft);text-transform:uppercase;}
+
+  nav.primary{display:flex;align-items:center;gap:2px;}
+  .navitem{position:relative;}
+  .navlink{
+    display:flex;align-items:center;gap:5px;padding:14px 13px;font-size:14px;font-weight:500;
+    color:var(--on-navy-soft);border-radius:var(--radius-s);
+  }
+  .navlink:hover, .navlink.active{color:var(--on-navy);}
+  .navlink .caret{width:8px;height:8px;opacity:.8;}
+  .navitem:hover .navlink{color:var(--on-navy);}
+
+  .megapanel{
+    position:absolute;top:100%;left:50%;transform:translateX(-50%);
+    background:var(--surface);border:1px solid var(--line);box-shadow:0 12px 28px rgba(6,14,26,.18);
+    border-radius:var(--radius-m);padding:22px;display:none;z-index:60;
+  }
+  .navitem:hover .megapanel, .navitem:focus-within .megapanel{display:block;}
+  .megapanel.wide{width:640px;}
+  .megapanel.mid{width:420px;}
+  .megagrid{display:grid;grid-template-columns:repeat(2,1fr);gap:4px 28px;}
+  .megacol-title{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);padding:6px 10px 8px;}
+  .megalink{display:block;padding:8px 10px;border-radius:var(--radius-s);color:var(--ink-soft);font-size:14px;}
+  .megalink strong{color:var(--ink);font-weight:600;display:block;}
+  .megalink small{color:var(--ink-faint);font-size:12.5px;}
+  .megalink:hover{background:var(--surface-2);color:var(--ink);}
+
+  .header-actions{display:flex;align-items:center;gap:10px;}
+  .hamburger{display:none;background:transparent;border:1px solid var(--on-navy-line);border-radius:var(--radius-s);width:40px;height:40px;align-items:center;justify-content:center;color:var(--on-navy);}
+
+  @media (max-width:1080px){
+    nav.primary{display:none;}
+    .hamburger{display:flex;}
+    .header-actions .btn-primary{display:none;}
+  }
+
+  #mobile-nav{
+    display:none;background:var(--navy-deep);border-top:1px solid var(--on-navy-line);
+    max-height:calc(100vh - 76px);overflow-y:auto;
+  }
+  #mobile-nav.open{display:block;}
+  .mnav-group summary{list-style:none;display:flex;align-items:center;justify-content:space-between;padding:16px 20px;color:var(--on-navy);font-weight:600;font-size:15px;border-bottom:1px solid var(--on-navy-line);}
+  .mnav-group summary::-webkit-details-marker{display:none;}
+  .mnav-sub{padding:2px 20px 14px;display:flex;flex-direction:column;gap:2px;border-bottom:1px solid var(--on-navy-line);}
+  .mnav-sub a{padding:9px 8px;color:var(--on-navy-soft);font-size:14px;border-radius:var(--radius-s);}
+  .mnav-sub a:hover{background:var(--on-navy-line);color:var(--on-navy);}
+  .mnav-top-link{display:block;padding:16px 20px;color:var(--on-navy);font-weight:600;font-size:15px;border-bottom:1px solid var(--on-navy-line);}
+
+  /* ============================= SECTIONS / GENERIC ============================= */
+  section{padding:88px 0;}
+  section.tight{padding:56px 0;}
+  @media (max-width:720px){section{padding:56px 0;} section.tight{padding:40px 0;}}
+  .band-navy{background:var(--navy);color:var(--on-navy);}
+  .band-navy h1,.band-navy h2,.band-navy h3{color:var(--on-navy);}
+  .band-navy .lede{color:var(--on-navy-soft);}
+  .band-surface2{background:var(--surface-2);}
+
+  .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:56px;}
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+  @media (max-width:900px){.grid-2{grid-template-columns:1fr;gap:32px;} .grid-3{grid-template-columns:1fr 1fr;} .grid-4{grid-template-columns:1fr 1fr;}}
+  @media (max-width:560px){.grid-3{grid-template-columns:1fr;} .grid-4{grid-template-columns:1fr;}}
+
+  .card{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-m);
+    padding:26px;box-shadow:var(--shadow-card);
+  }
+  .card-top-rule{border-top:2px solid var(--ember);}
+  .card-top-rule.navy{border-top-color:var(--navy);}
+  .card-top-rule.burgundy{border-top-color:var(--burgundy);}
+
+  .section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;margin-bottom:44px;}
+  @media (max-width:720px){.section-head{flex-direction:column;align-items:flex-start;gap:14px;}}
+
+  .breadcrumbs{font-family:var(--font-mono);font-size:12px;color:var(--ink-faint);display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:18px;}
+  .breadcrumbs a:hover{color:var(--ink);}
+  .page-hero .breadcrumbs,.hero .breadcrumbs{color:var(--on-navy-soft);}
+  .page-hero .breadcrumbs a:hover,.hero .breadcrumbs a:hover{color:var(--on-navy);}
+  .page-hero .breadcrumbs span:last-child,.hero .breadcrumbs span:last-child{color:var(--on-navy);}
+
+  .stat{display:flex;flex-direction:column;gap:4px;}
+  .stat .num{font-family:var(--font-display);font-size:2.4rem;color:var(--ember);}
+  .stat .label{font-size:13px;color:var(--on-navy-soft);}
+
+  .kicker-list{display:flex;flex-direction:column;}
+  .kicker-list > li{border-top:1px solid var(--line);padding:18px 0;display:flex;justify-content:space-between;gap:20px;align-items:baseline;}
+  .kicker-list > li:last-child{border-bottom:1px solid var(--line);}
+
+  .pill{display:inline-flex;align-items:center;font-family:var(--font-mono);font-size:11.5px;letter-spacing:.05em;padding:5px 11px;border-radius:100px;border:1px solid var(--line);color:var(--ink-soft);}
+
+  /* Hero */
+  .hero h1,.hero h2,.hero h3,.page-hero h1,.page-hero h2,.page-hero h3{color:var(--on-navy);}
+  .hero{position:relative;background:var(--navy);color:var(--on-navy);overflow:hidden;}
+  .hero::before{
+    content:"";position:absolute;inset:0;
+    background:
+      linear-gradient(160deg, transparent 40%, rgba(184,92,30,0.14) 100%),
+      radial-gradient(560px 360px at 88% -10%, rgba(107,22,38,0.35), transparent 70%);
+    pointer-events:none;
+  }
+  .hero-inner{position:relative;padding:104px 0 88px;}
+  .hero h1{font-size:clamp(2.3rem,4.2vw,3.6rem);line-height:1.08;max-width:16ch;}
+  .hero .lede{margin-top:22px;color:var(--on-navy-soft);font-size:1.2rem;}
+  .hero-ctas{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap;}
+  .hero-stats{display:flex;gap:48px;margin-top:76px;padding-top:32px;border-top:1px solid var(--on-navy-line);flex-wrap:wrap;}
+
+  .page-hero{background:var(--navy);color:var(--on-navy);padding:64px 0 52px;}
+  .page-hero h1{font-size:clamp(1.9rem,3.4vw,2.6rem);max-width:24ch;margin-top:14px;}
+  .page-hero .lede{margin-top:16px;}
+
+  /* Business division cards */
+  .biz-card{border:1px solid var(--line);border-radius:var(--radius-m);background:var(--surface);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow-card);}
+  .biz-card-top{padding:22px 24px;color:#fff;}
+  .biz-card-top.c-navy{background:var(--navy);}
+  .biz-card-top.c-burgundy{background:var(--burgundy);}
+  .biz-card-top.c-ember{background:var(--ember);}
+  .biz-card-top .num{font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;opacity:.75;}
+  .biz-card-top h3{color:#fff;font-size:1.28rem;margin-top:6px;}
+  .biz-card-top .tag{color:rgba(255,255,255,.78);border-color:rgba(255,255,255,.3);margin-top:10px;display:inline-block;}
+  .biz-card-body{padding:22px 24px 24px;display:flex;flex-direction:column;gap:14px;flex:1;}
+  .biz-card-body p{color:var(--ink-soft);font-size:14.5px;}
+
+  /* Practice tiles */
+  .practice-tile{border:1px solid var(--line);border-radius:var(--radius-m);background:var(--surface);padding:24px;display:flex;flex-direction:column;gap:10px;height:100%;}
+  .practice-tile:hover{border-color:var(--navy);}
+  .practice-tile h3{font-size:1.08rem;}
+  .practice-tile p{color:var(--ink-soft);font-size:13.5px;line-height:1.55;}
+
+  .subgroup{border-top:1px solid var(--line);padding:28px 0;}
+  .subgroup:first-child{border-top:none;padding-top:0;}
+  .subgroup-head{display:flex;align-items:baseline;gap:14px;margin-bottom:16px;flex-wrap:wrap;}
+  .subgroup-head h3{font-size:1.15rem;}
+  .chiplist{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{font-size:13px;color:var(--ink-soft);background:var(--surface-2);border:1px solid var(--line-soft);border-radius:100px;padding:6px 13px;}
+
+  .framework-card{border:1px solid var(--line);background:var(--surface);border-radius:var(--radius-m);padding:28px;display:flex;flex-direction:column;gap:12px;}
+  .framework-card .fnum{font-family:var(--font-mono);color:var(--ember);font-size:12px;}
+  .framework-card h3{font-size:1.2rem;}
+  .framework-card p{color:var(--ink-soft);font-size:14px;}
+
+  .cta-band{background:var(--burgundy);color:#fff;border-radius:var(--radius-m);padding:52px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;}
+  .cta-band h2{color:#fff;font-size:1.7rem;}
+  .cta-band p{color:rgba(255,255,255,.82);margin-top:8px;max-width:48ch;}
+
+  .article-card{border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;background:var(--surface);}
+  .article-thumb{height:132px;background:linear-gradient(135deg,var(--navy),var(--navy-deep));position:relative;}
+  .article-thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg, rgba(184,92,30,.28), transparent 60%);}
+  .article-thumb.b{background:linear-gradient(135deg,var(--burgundy),#3E0E17);}
+  .article-thumb.b::after{background:linear-gradient(135deg, rgba(184,92,30,.22), transparent 60%);}
+  .article-body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px;}
+  .article-meta{font-family:var(--font-mono);font-size:11px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.05em;}
+  .article-body h3{font-size:1.02rem;line-height:1.35;}
+
+  .industry-tile{border:1px solid var(--line);border-radius:var(--radius-m);padding:22px;background:var(--surface);display:flex;flex-direction:column;gap:8px;}
+  .industry-tile .idx{font-family:var(--font-mono);font-size:11px;color:var(--ember);}
+
+  .contact-card{border:1px solid var(--line);border-radius:var(--radius-m);padding:22px;background:var(--surface);display:flex;flex-direction:column;gap:8px;}
+  .contact-card h3{font-size:1.02rem;}
+  .contact-card p{color:var(--ink-soft);font-size:13.5px;}
+
+  form.stack{display:flex;flex-direction:column;gap:18px;}
+  .field{display:flex;flex-direction:column;gap:6px;}
+  .field label{font-size:12.5px;font-weight:600;color:var(--ink-soft);}
+  .field input, .field select, .field textarea{
+    font-family:var(--font-body);font-size:14.5px;padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius-s);
+    background:var(--surface);color:var(--ink);
+  }
+  .field input:focus, .field select:focus, .field textarea:focus{border-color:var(--navy);}
+  .field-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  @media (max-width:560px){.field-row{grid-template-columns:1fr;}}
+  #contact-success{display:none;border:1px solid var(--ember);background:var(--ember-tint);border-radius:var(--radius-m);padding:20px;font-size:14.5px;}
+
+  .book-cover{aspect-ratio:2/3;border-radius:var(--radius-s);display:flex;align-items:center;justify-content:center;color:#fff;text-align:center;padding:16px;font-family:var(--font-display);font-size:1rem;}
+
+  /* Footer */
+  footer{background:var(--navy-deep);color:var(--on-navy-soft);padding:64px 0 28px;}
+  .foot-grid{display:grid;grid-template-columns:1.4fr repeat(5,1fr);gap:32px;}
+  @media (max-width:980px){.foot-grid{grid-template-columns:1fr 1fr 1fr;}}
+  @media (max-width:620px){.foot-grid{grid-template-columns:1fr 1fr;}}
+  .foot-col-title{font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--on-navy);margin-bottom:14px;}
+  .foot-col a{display:block;padding:5px 0;font-size:13.5px;color:var(--on-navy-soft);}
+  .foot-col a:hover{color:#fff;}
+  .foot-bottom{margin-top:56px;padding-top:24px;border-top:1px solid var(--on-navy-line);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12.5px;}
+
+  #app{min-height:60vh;}
+  .fade-in{animation:fadein .35s ease;}
+  @keyframes fadein{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:translateY(0);}}
+
+  .divider-label{display:flex;align-items:center;gap:14px;margin:8px 0 30px;}
+  .divider-label hr{flex:1;border:none;border-top:1px solid var(--line);}
+</style>
+</head>
+<body>
+<div id="site-header">
+  <div class="wrap header-inner">
+    <a href="/" class="brand" onclick="closeMobileNav()">
+      <span class="brand-mark">L</span>
+      <span class="brand-text">
+        <span class="brand-name">Libra Scale World</span>
+        <span class="brand-tag">Intelligent Organizations</span>
+      </span>
+    </a>
+
+    <nav class="primary" id="primary-nav">
+    <div class="navitem">
+      <a class="navlink" href="/about">About</a>
+      
+    </div>
+    <div class="navitem">
+      <a class="navlink" href="/businesses">Businesses<svg class="caret" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path></svg></a>
+      <div class="megapanel wide">
+    <div class="megagrid">
+      <a class="megalink" href="/businesses/consult"><strong>Libra Scale Consult</strong><small>AI • Data • Strategy • Transformation</small></a><a class="megalink" href="/businesses/institute"><strong>Libra Scale Institute</strong><small>Executive Education &amp; Professional Development</small></a><a class="megalink" href="/businesses/research"><strong>Libra Scale Research</strong><small>Research • Benchmarking • Market Intelligence</small></a><a class="megalink" href="/businesses/media"><strong>Libra Scale Media</strong><small>Books • Podcast • YouTube</small></a><a class="megalink" href="/businesses/labs"><strong>Libra Scale Labs</strong><small>Enterprise AI Products</small></a>
+      <a class="megalink" href="/businesses"><strong>All Businesses</strong><small>See the full portfolio</small></a>
+      <a class="megalink" href="/speaking"><strong>Speaking</strong><small>Keynotes &amp; executive sessions</small></a>
+    </div>
+  </div>
+    </div>
+    <div class="navitem">
+      <a class="navlink" href="/consult">Services<svg class="caret" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path></svg></a>
+      <div class="megapanel wide">
+    <div class="megagrid">
+      <a class="megalink" href="/consult/ai-strategy"><strong>AI Strategy</strong><small>Turning artificial intelligence from a pilot into an enterprise capability.</small></a><a class="megalink" href="/consult/ai-governance"><strong>AI Governance</strong><small>Making AI adoption defensible, auditable, and safe at enterprise scale.</small></a><a class="megalink" href="/consult/cybersecurity"><strong>Cybersecurity &amp; Information Security</strong><small>Protecting the enterprise as it becomes more intelligent — security strategy, governance, and CISO advisory for an AI-driven threat landscape.</small></a><a class="megalink" href="/consult/data-analytics"><strong>Data &amp; Analytics Practice</strong><small>The firm's largest practice — enterprise data strategy, governance, quality, and platforms in one operating model.</small></a><a class="megalink" href="/consult/digital-transformation"><strong>Digital Transformation</strong><small>Enterprise, process, technology, and organizational transformation, sequenced around AI.</small></a><a class="megalink" href="/consult/analytics-advisory"><strong>Analytics &amp; Decision Intelligence</strong><small>Turning enterprise data into executive decisions — dashboards, forecasting, and performance analytics.</small></a><a class="megalink" href="/consult/executive-advisory"><strong>Executive Advisory</strong><small>Fractional and advisory support for the executives accountable for the transformation.</small></a>
+      <a class="megalink" href="/frameworks"><strong>Frameworks &amp; Methodologies™</strong><small>Our proprietary IP</small></a>
+    </div>
+  </div>
+    </div>
+    <div class="navitem">
+      <a class="navlink" href="/frameworks">Frameworks</a>
+      
+    </div>
+    <div class="navitem">
+      <a class="navlink" href="/industries">Industries</a>
+      
+    </div>
+    <div class="navitem">
+      <a class="navlink" href="/insights">Insights<svg class="caret" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path></svg></a>
+      <div class="megapanel mid">
+    <div class="megacol-title">Read</div>
+    <a class="megalink" href="/insights"><strong>Insights Hub</strong><small>Blog, white papers, case studies</small></a>
+    <a class="megalink" href="/businesses/research"><strong>Libra Scale Research</strong><small>Reports, surveys, benchmarking</small></a>
+    <a class="megalink" href="/businesses/media"><strong>Libra Scale Media</strong><small>Books, podcast, YouTube, films</small></a>
+  </div>
+    </div>
+    <div class="navitem">
+      <a class="navlink" href="/contact">Contact</a>
+      
+    </div></nav>
+
+    <div class="header-actions">
+      <a href="/contact" class="btn btn-primary">Work With Us</a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+  <div id="mobile-nav"><a class="mnav-top-link" href="/">Home</a><a class="mnav-top-link" href="/about">About</a><details class="mnav-group"><summary>Businesses ▾</summary><div class="mnav-sub"><a href="/businesses/consult">Libra Scale Consult</a><a href="/businesses/institute">Libra Scale Institute</a><a href="/businesses/research">Libra Scale Research</a><a href="/businesses/media">Libra Scale Media</a><a href="/businesses/labs">Libra Scale Labs</a><a href="/businesses">All Businesses</a></div></details><details class="mnav-group"><summary>Services ▾</summary><div class="mnav-sub"><a href="/consult/ai-strategy">AI Strategy</a><a href="/consult/ai-governance">AI Governance</a><a href="/consult/cybersecurity">Cybersecurity &amp; Information Security</a><a href="/consult/data-analytics">Data &amp; Analytics Practice</a><a href="/consult/digital-transformation">Digital Transformation</a><a href="/consult/analytics-advisory">Analytics &amp; Decision Intelligence</a><a href="/consult/executive-advisory">Executive Advisory</a></div></details><a class="mnav-top-link" href="/frameworks">Frameworks</a><a class="mnav-top-link" href="/industries">Industries</a><details class="mnav-group"><summary>Insights ▾</summary><div class="mnav-sub"><a href="/insights">Insights Hub</a><a href="/businesses/research">Research</a><a href="/businesses/media">Media</a><a href="/speaking">Speaking</a><a href="/books">Books</a></div></details><a class="mnav-top-link" href="/contact">Contact</a></div>
+</div>
+<div id="app"><div class="fade-in"><section><div class="wrap" style="text-align:center;padding:80px 0;">
+    <div class="eyebrow">404</div>
+    <h1 style="margin-top:10px;">This page hasn't been built yet.</h1>
+    <p class="lede" style="margin:16px auto 0;">Part of the full-sitemap skeleton still pending content.</p>
+    <a href="/" class="btn btn-primary" style="margin-top:28px;">Back to Home</a>
+  </div></section></div></div>
+<footer>
+  <div class="wrap">
+    <div class="foot-grid" id="footer-grid">
+    <div>
+      <div class="foot-col-title">Libra Scale World</div>
+      <p style="color:var(--on-navy-soft);font-size:13.5px;max-width:32ch;">Building Intelligent Organizations. Transforming the Future.</p>
+    </div>
+    <div class="foot-col"><div class="foot-col-title">Businesses</div>
+      <a href="/businesses/consult">Consult</a><a href="/businesses/institute">Institute</a><a href="/businesses/research">Research</a><a href="/businesses/media">Media</a><a href="/businesses/labs">Labs</a>
+    </div>
+    <div class="foot-col"><div class="foot-col-title">Services</div>
+      <a href="/consult/ai-strategy">AI Strategy</a><a href="/consult/ai-governance">AI Governance</a><a href="/consult/cybersecurity">Cybersecurity &amp; Information Security</a><a href="/consult/data-analytics">Data &amp; Analytics Practice</a><a href="/consult/digital-transformation">Digital Transformation</a><a href="/consult/analytics-advisory">Analytics &amp; Decision Intelligence</a><a href="/consult/executive-advisory">Executive Advisory</a>
+      <a href="/frameworks">Frameworks™</a>
+    </div>
+    <div class="foot-col"><div class="foot-col-title">Explore</div>
+      <a href="/about">About</a>
+      <a href="/industries">Industries</a>
+      <a href="/insights">Insights</a>
+      <a href="/speaking">Speaking</a>
+      <a href="/books">Books</a>
+    </div>
+    <div class="foot-col"><div class="foot-col-title">Institute &amp; Research</div>
+      <a href="/businesses/institute">Executive Education</a>
+      <a href="/businesses/institute">Corporate Training</a>
+      <a href="/businesses/research">Industry Reports</a>
+      <a href="/businesses/research">Benchmarking</a>
+    </div>
+    <div class="foot-col"><div class="foot-col-title">Contact</div>
+      <a href="/contact">Book a Consultation</a>
+      <a href="/contact">Speaking Request</a>
+      <a href="/contact">Media Inquiry</a>
+      <a href="/contact">General Contact</a>
+    </div>
+  </div>
+    <div class="foot-bottom">
+      <span>© 2026 Libra Scale World. Building Intelligent Organizations. Transforming the Future.</span>
+      <span>Design prototype — content shown is illustrative and pending final review.</span>
+    </div>
+  </div>
+</footer>
+<script>
+/* ============================================================
+   CONTENT DATA
+   ============================================================ */
+
+const IMG = {
+  aiAlchemist: '/assets/covers/ai-alchemist.jpg',
+  intelligenceGap: '/assets/covers/intelligence-gap.jpg',
+  insideTheSystem: '/assets/covers/inside-the-system.jpg',
+  theLamp: '/assets/covers/the-lamp.jpg',
+  trustEconomy: '/assets/covers/trust-economy.jpg',
+};
+
+const BUSINESSES = [
+  {id:'consult', num:'01', color:'c-navy', name:'Libra Scale Consult', tag:'AI • Data • Strategy • Transformation',
+   desc:'Helping governments, utilities, and enterprises become intelligent organizations — from AI strategy and governance to enterprise data and digital transformation.'},
+  {id:'institute', num:'02', color:'c-burgundy', name:'Libra Scale Institute', tag:'Executive Education & Professional Development',
+   desc:'Executive programs, corporate training, and certifications that build AI and data fluency across the organization.'},
+  {id:'research', num:'03', color:'c-ember', name:'Libra Scale Research', tag:'Research • Benchmarking • Market Intelligence',
+   desc:'Independent industry reports, executive surveys, and maturity benchmarks that inform how intelligent organizations are built.'},
+  {id:'media', num:'04', color:'c-burgundy', name:'Libra Scale Media', tag:'Books • Podcast • YouTube',
+   desc:'Books, executive interviews, and long-form conversations that carry the Libra Scale point of view beyond the boardroom.'},
+  {id:'labs', num:'05', color:'c-navy', name:'Libra Scale Labs', tag:'Enterprise AI Products',
+   desc:'Decision intelligence software, executive dashboards, and AI governance platforms built from what Consult learns in the field.'},
+];
+
+const PRACTICES = [
+  {id:'ai-strategy', name:'AI Strategy', tag:'Consult', blurb:'Turning artificial intelligence from a pilot into an enterprise capability.',
+   items:['Enterprise AI Strategy','AI Readiness Assessment','AI Roadmap','AI Use Case Discovery','AI Business Case Development','AI Operating Model','AI Portfolio Strategy']},
+  {id:'ai-governance', name:'AI Governance', tag:'Consult', blurb:'Making AI adoption defensible, auditable, and safe at enterprise scale.',
+   items:['AI Governance Framework','Responsible AI','AI Risk Management','AI Ethics','AI Compliance','AI Audit','AI Policy Development','AI Lifecycle Governance']},
+  {id:'cybersecurity', name:'Cybersecurity & Information Security', tag:'Consult', blurb:'Protecting the enterprise as it becomes more intelligent — security strategy, governance, and CISO advisory for an AI-driven threat landscape.',
+   items:['Enterprise Cybersecurity Strategy','Information Security Governance','CISO Advisory','Cyber Risk Management','Data Privacy & Protection','Security Awareness & Culture','Incident Response Readiness','Third-Party & Vendor Risk','Cloud & AI Security','Regulatory Compliance (ISO 27001, NIST, GDPR/NDPR)']},
+  {id:'data-analytics', name:'Data & Analytics Practice', tag:'Consult', blurb:'The firm\'s largest practice — enterprise data strategy, governance, quality, and platforms in one operating model.',
+   items:[]},
+  {id:'digital-transformation', name:'Digital Transformation', tag:'Consult', blurb:'Enterprise, process, technology, and organizational transformation, sequenced around AI.',
+   items:[]},
+  {id:'analytics-advisory', name:'Analytics & Decision Intelligence', tag:'Consult', blurb:'Turning enterprise data into executive decisions — dashboards, forecasting, and performance analytics.',
+   items:['Business Intelligence','Executive Dashboards','Performance Management','Predictive Analytics','Prescriptive Analytics','Customer Analytics','Revenue Analytics','Risk Analytics','Energy Analytics','AI Analytics','KPI Framework']},
+  {id:'executive-advisory', name:'Executive Advisory', tag:'Consult', blurb:'Fractional and advisory support for the executives accountable for the transformation.',
+   items:['CEO Advisory','CIO Advisory','Chief AI Officer Advisory','Chief Data Officer Advisory','Board Advisory','Fractional Executive Services','Digital Transformation Advisory']},
+];
+
+const DATA_SUBGROUPS = [
+  {title:'Strategy & Operating Model', items:['Enterprise Data Strategy','Data Vision & Roadmap','Data Operating Model Design','Chief Data Officer Advisory','Data Office Setup','Enterprise Data Capability Assessment','Data Maturity Assessment','Data Monetization']},
+  {title:'Governance & Stewardship', items:['Enterprise Data Governance','Data Governance Office','Data Stewardship','Data Ownership','Data Policies','Metadata Management','Master Data Management','Reference Data','Data Catalog Strategy','Data Lifecycle Management']},
+  {title:'Quality & Management', items:['Data Quality Assessment','Data Cleansing','Data Profiling','Data Validation','Data Monitoring','Data Integrity','Data Warehousing','Data Lakes','Data Fabric','Data Mesh','ETL / ELT']},
+  {title:'Platform & Architecture', items:['Data Architecture Strategy','Data Platform Strategy','Modern Data Platform','Cloud Migration','Enterprise Data Hub','API & Enterprise Integration','Data Security & Privacy','AI-Ready Data']},
+];
+
+const DIGITAL_SUBGROUPS = [
+  {title:'Enterprise Digital Strategy', items:['Digital Strategy','Enterprise Transformation','Digital Roadmap','Business Model Innovation','Digital Business','Enterprise Modernization','Future of Work']},
+  {title:'Process Transformation', items:['Business Process Reengineering','Intelligent Automation','Process Mining','Lean Improvement','Customer Journey Design','Operational Excellence','Workflow Optimization']},
+  {title:'AI Transformation', items:['AI Transformation Strategy','Generative AI','Agentic AI','Robotic Process Automation','AI Adoption','AI Change Management','AI Value Realization']},
+  {title:'Technology Transformation', items:['Cloud Transformation','ERP Advisory','CRM Advisory','Technology Roadmaps','Application Modernization','Platform Strategy','Smart Operations']},
+  {title:'Organizational Transformation', items:['Change Management','Executive Coaching','Digital Culture','Leadership Transformation','Innovation','Stakeholder Engagement','Transformation PMO & Benefits Tracking']},
+];
+
+const FRAMEWORKS = [
+  {name:'S.I.G.H.T. Framework™', flag:'Flagship', blurb:'Signals, Intelligence, Governance, Humans, Trust — our commercial diagnostic, packaged with a 50-question assessment and a three-tier engagement model.'},
+  {name:'AI Governance Maturity Model™', blurb:'Benchmarks an organization’s AI governance against five maturity stages, from ungoverned experimentation to board-level oversight.'},
+  {name:'The Intelligence Gap Framework™', blurb:'Five Pillars — Analytical Education, Data Sovereignty, Research Ecosystems, Governance Intelligence, Intelligence Culture — for closing the gap between what organizations know and what they do with it.'},
+  {name:'Decision Intelligence Framework™', blurb:'A repeatable model connecting enterprise data to the decisions executives actually make — published as a working paper on SSRN.'},
+  {name:'Better Questions Framework™', blurb:'A structured method for surfacing the right question before reaching for an AI or data solution.'},
+  {name:'Intelligent Enterprise Framework™', flag:'In Development', blurb:'The unifying operating model tying enterprise AI, data, and decision intelligence into a single operating model.'},
+];
+
+const INDUSTRIES = [
+  {name:'Utilities', blurb:'Grid modernization, asset intelligence, and regulatory-ready data governance.'},
+  {name:'Energy', blurb:'AI-enabled forecasting, operational analytics, and transition-readiness strategy.'},
+  {name:'Government', blurb:'Enterprise data governance and AI policy for public-sector institutions.'},
+  {name:'Financial Services', blurb:'Risk analytics, AI governance, and regulatory-grade data management.'},
+  {name:'Manufacturing', blurb:'Operational data platforms, predictive analytics, and process intelligence.'},
+  {name:'Healthcare', blurb:'Data governance, interoperability, and responsible AI adoption.'},
+  {name:'Telecommunications', blurb:'Network analytics, customer intelligence, and digital transformation.'},
+  {name:'Retail', blurb:'Customer and revenue analytics, and AI-driven decision intelligence.'},
+  {name:'Education', blurb:'Institutional data strategy and AI literacy for academic organizations.'},
+];
+
+const INSIGHT_TOPICS = ['Leadership','AI','Data','Digital Transformation','Decision Intelligence','Cybersecurity','Energy','Government'];
+
+const BOOKS_PUBLISHED = [
+  {title:'The AI Alchemist', sub:'Harnessing AI for Industry Innovation and Ethical Challenges', tag:'#1 International Bestseller', img:IMG.aiAlchemist, fit:'cover'},
+  {title:'The Intelligence Gap', sub:'Why Nations That Master Intelligence Will Rule the World', tag:'Five Pillars Framework', img:IMG.intelligenceGap, fit:'cover'},
+  {title:'Inside the System', sub:'How Power Is Built, Controlled, and Scaled Through Data', tag:'Published', img:IMG.insideTheSystem, fit:'cover'},
+  {title:'The Lamp', sub:'AI’s Blueprint for the Future', tag:'Published', img:IMG.theLamp, fit:'contain'},
+  {title:'The Trust Economy', sub:'Why Trust Is Becoming the Most Valuable Asset in the Digital Age', tag:'Librascale Press', img:IMG.trustEconomy, fit:'contain'},
+];
+const BOOKS_FORTHCOMING = [
+  {title:'Decide Like a Machine, Lead Like a Human', sub:'', tag:'In Progress', color:'var(--ember)'},
+];
+
+const ARTICLES = [
+  {topic:'Data', title:'Why Enterprise Data Governance Fails Without an Operating Model', shade:''},
+  {topic:'AI', title:'AI Readiness Is a Data Problem Before It Is a Model Problem', shade:'b'},
+  {topic:'Decision Intelligence', title:'From Dashboards to Decisions: Closing the Executive Reporting Gap', shade:''},
+];
+
+const NAV = [
+  {label:'About', href:'/about'},
+  {label:'Businesses', href:'/businesses', mega:'businesses'},
+  {label:'Services', href:'/consult', mega:'services'},
+  {label:'Frameworks', href:'/frameworks'},
+  {label:'Industries', href:'/industries'},
+  {label:'Insights', href:'/insights', mega:'insights'},
+  {label:'Contact', href:'/contact'},
+];
+
+/* ============================================================
+   HEADER / NAV RENDERING
+   ============================================================ */
+
+function megaBusinesses(){
+  return `<div class="megapanel wide">
+    <div class="megagrid">
+      ${BUSINESSES.map(b=>`<a class="megalink" href="/businesses/${b.id}"><strong>${b.name}</strong><small>${b.tag}</small></a>`).join('')}
+      <a class="megalink" href="/businesses"><strong>All Businesses</strong><small>See the full portfolio</small></a>
+      <a class="megalink" href="/speaking"><strong>Speaking</strong><small>Keynotes & executive sessions</small></a>
+    </div>
+  </div>`;
+}
+function megaServices(){
+  return `<div class="megapanel wide">
+    <div class="megagrid">
+      ${PRACTICES.map(p=>`<a class="megalink" href="/consult/${p.id}"><strong>${p.name}</strong><small>${p.blurb}</small></a>`).join('')}
+      <a class="megalink" href="/frameworks"><strong>Frameworks & Methodologies™</strong><small>Our proprietary IP</small></a>
+    </div>
+  </div>`;
+}
+function megaInsights(){
+  return `<div class="megapanel mid">
+    <div class="megacol-title">Read</div>
+    <a class="megalink" href="/insights"><strong>Insights Hub</strong><small>Blog, white papers, case studies</small></a>
+    <a class="megalink" href="/businesses/research"><strong>Libra Scale Research</strong><small>Reports, surveys, benchmarking</small></a>
+    <a class="megalink" href="/businesses/media"><strong>Libra Scale Media</strong><small>Books, podcast, YouTube, films</small></a>
+  </div>`;
+}
+function megaFor(key){
+  if(key==='businesses') return megaBusinesses();
+  if(key==='services') return megaServices();
+  if(key==='insights') return megaInsights();
+  return '';
+}
+
+function renderPrimaryNav(){
+  const el = document.getElementById('primary-nav');
+  el.innerHTML = NAV.map(item=>`
+    <div class="navitem">
+      <a class="navlink" href="${item.href}">${item.label}${item.mega?'<svg class="caret" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>':''}</a>
+      ${item.mega?megaFor(item.mega):''}
+    </div>`).join('');
+}
+
+function renderMobileNav(){
+  const el = document.getElementById('mobile-nav');
+  let html = '';
+  html += `<a class="mnav-top-link" href="/">Home</a>`;
+  html += `<a class="mnav-top-link" href="/about">About</a>`;
+  html += `<details class="mnav-group"><summary>Businesses ▾</summary><div class="mnav-sub">${BUSINESSES.map(b=>`<a href="/businesses/${b.id}">${b.name}</a>`).join('')}<a href="/businesses">All Businesses</a></div></details>`;
+  html += `<details class="mnav-group"><summary>Services ▾</summary><div class="mnav-sub">${PRACTICES.map(p=>`<a href="/consult/${p.id}">${p.name}</a>`).join('')}</div></details>`;
+  html += `<a class="mnav-top-link" href="/frameworks">Frameworks</a>`;
+  html += `<a class="mnav-top-link" href="/industries">Industries</a>`;
+  html += `<details class="mnav-group"><summary>Insights ▾</summary><div class="mnav-sub"><a href="/insights">Insights Hub</a><a href="/businesses/research">Research</a><a href="/businesses/media">Media</a><a href="/speaking">Speaking</a><a href="/books">Books</a></div></details>`;
+  html += `<a class="mnav-top-link" href="/contact">Contact</a>`;
+  el.innerHTML = html;
+}
+
+function renderFooter(){
+  const el = document.getElementById('footer-grid');
+  el.innerHTML = `
+    <div>
+      <div class="foot-col-title">Libra Scale World</div>
+      <p style="color:var(--on-navy-soft);font-size:13.5px;max-width:32ch;">Building Intelligent Organizations. Transforming the Future.</p>
+    </div>
+    <div class="foot-col"><div class="foot-col-title">Businesses</div>
+      ${BUSINESSES.map(b=>`<a href="/businesses/${b.id}">${b.name.replace('Libra Scale ','')}</a>`).join('')}
+    </div>
+    <div class="foot-col"><div class="foot-col-title">Services</div>
+      ${PRACTICES.map(p=>`<a href="/consult/${p.id}">${p.name}</a>`).join('')}
+      <a href="/frameworks">Frameworks™</a>
+    </div>
+    <div class="foot-col"><div class="foot-col-title">Explore</div>
+      <a href="/about">About</a>
+      <a href="/industries">Industries</a>
+      <a href="/insights">Insights</a>
+      <a href="/speaking">Speaking</a>
+      <a href="/books">Books</a>
+    </div>
+    <div class="foot-col"><div class="foot-col-title">Institute & Research</div>
+      <a href="/businesses/institute">Executive Education</a>
+      <a href="/businesses/institute">Corporate Training</a>
+      <a href="/businesses/research">Industry Reports</a>
+      <a href="/businesses/research">Benchmarking</a>
+    </div>
+    <div class="foot-col"><div class="foot-col-title">Contact</div>
+      <a href="/contact">Book a Consultation</a>
+      <a href="/contact">Speaking Request</a>
+      <a href="/contact">Media Inquiry</a>
+      <a href="/contact">General Contact</a>
+    </div>
+  `;
+}
+
+function closeMobileNav(){ document.getElementById('mobile-nav').classList.remove('open'); }
+document.getElementById('hamburger-btn').addEventListener('click', ()=>{
+  document.getElementById('mobile-nav').classList.toggle('open');
+});
+
+/* ============================================================
+   PAGE TEMPLATES
+   ============================================================ */
+
+function crumbs(parts){
+  return `<div class="breadcrumbs">${parts.map((p,i)=> i<parts.length-1 ? `<a href="${p.href}">${p.label}</a><span>/</span>` : `<span style="color:var(--ink-soft)">${p.label}</span>`).join('')}</div>`;
+}
+
+function pageHome(){
+  return `
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="eyebrow on-navy">Libra Scale World · Africa · Americas · Europe · Australia</div>
+      <h1>The future belongs to intelligent organizations.</h1>
+      <p class="lede">We help governments, utilities, enterprises, and institutions transform through artificial intelligence, enterprise data, digital transformation, analytics, and decision intelligence — across Africa, the Americas, Europe, and Australia.</p>
+      <div class="hero-ctas">
+        <a href="/contact" class="btn btn-primary">Work With Us</a>
+        <a href="/businesses" class="btn btn-ghost-navy">Explore Our Businesses</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="num">5</div><div class="label">Businesses under one portfolio</div></div>
+        <div class="stat"><div class="num">6</div><div class="label">Proprietary frameworks™</div></div>
+        <div class="stat"><div class="num">4</div><div class="label">Continents served</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Featured Businesses</div>
+          <h2 style="font-size:2rem;margin-top:10px;">One portfolio, five disciplines</h2>
+        </div>
+        <a href="/businesses" class="btn-text">View all businesses <span class="arrow">→</span></a>
+      </div>
+      <div class="grid-3" style="grid-template-columns:repeat(3,1fr);">
+        ${BUSINESSES.map(b=>bizCard(b)).join('')}
+      </div>
+    </div>
+  </section>
+
+  <section class="band-surface2">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow burgundy">Frameworks & Methodologies</div>
+          <h2 style="font-size:2rem;margin-top:10px;">Our intellectual property, applied everywhere</h2>
+          <p class="lede" style="margin-top:14px;">Seven proprietary frameworks underpin every engagement, program, publication, and product across Libra Scale World.</p>
+        </div>
+        <a href="/frameworks" class="btn-text">See all frameworks <span class="arrow">→</span></a>
+      </div>
+      <div class="grid-4">
+        ${FRAMEWORKS.slice(0,4).map((f,i)=>`
+          <div class="framework-card">
+            <div class="fnum">0${i+1}</div>
+            <h3>${f.name}</h3>
+            <p>${f.blurb}</p>
+          </div>`).join('')}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cta-band">
+        <div>
+          <h2>Ready to build an intelligent organization?</h2>
+          <p>Book a consultation with Libra Scale Consult, or explore executive education through the Institute.</p>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="/contact" class="btn btn-primary">Book a Consultation</a>
+          <a href="/businesses/institute" class="btn btn-ghost-navy" style="border-color:rgba(255,255,255,.4);color:#fff;">Explore the Institute</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Insights</div>
+          <h2 style="font-size:2rem;margin-top:10px;">From the Insights desk</h2>
+        </div>
+        <a href="/insights" class="btn-text">Visit Insights <span class="arrow">→</span></a>
+      </div>
+      <div class="grid-3">
+        ${ARTICLES.map(a=>articleCard(a)).join('')}
+      </div>
+    </div>
+  </section>
+  `;
+}
+
+function bizCard(b){
+  return `<a href="/businesses/${b.id}" style="display:block;">
+    <div class="biz-card">
+      <div class="biz-card-top ${b.color}">
+        <div class="num">${b.num}</div>
+        <h3>${b.name}</h3>
+        <span class="tag">${b.tag}</span>
+      </div>
+      <div class="biz-card-body">
+        <p>${b.desc}</p>
+        <span class="btn-text">Learn more <span class="arrow">→</span></span>
+      </div>
+    </div>
+  </a>`;
+}
+
+function articleCard(a){
+  return `<div class="article-card">
+    <div class="article-thumb ${a.shade}"></div>
+    <div class="article-body">
+      <div class="article-meta">${a.topic} · Libra Scale Editorial</div>
+      <h3>${a.title}</h3>
+      <span class="btn-text" style="font-size:13px;">Read more <span class="arrow">→</span></span>
+    </div>
+  </div>`;
+}
+
+function pageAbout(){
+  const credentials = ['Professional Doctorate, Data Science & AI — University of East London','MSc Economics — University of Lagos','B.Sc. Economics & Statistics — University of Jos','AIGP','Scrum Master','IIBA Business Analyst','Member, AAAI','Member, ACM','Member, IEEE','Member, IIBA'];
+  const awards = ['AI Leadership Award — Global Big Data Summit (2023)','Data Innovation Award — Nigeria Tech Awards (2020)','Best Producer — ZUMA Film Festival','Best International Film Producer — TINFF Canada'];
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'About'}])}
+      <div class="eyebrow on-navy">About Libra Scale World</div>
+      <h1>A portfolio built around one conviction: intelligence is now infrastructure.</h1>
+      <p class="lede">Libra Scale World is the parent company behind Consult, Institute, Research, Media, and Labs — five businesses, one point of view on how organizations should be run in an AI-driven era.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap grid-2" style="align-items:flex-start;">
+      <div>
+        <div style="width:100%;aspect-ratio:4/5;border-radius:var(--radius-m);background:linear-gradient(160deg,var(--navy),var(--navy-deep));display:flex;align-items:center;justify-content:center;color:var(--on-navy-soft);font-family:var(--font-mono);font-size:12px;text-align:center;padding:24px;border:1px solid var(--line);">
+          Founder photo placeholder<br>— drop in a headshot to replace —
+        </div>
+      </div>
+      <div>
+        <div class="eyebrow burgundy">Founder</div>
+        <h2 style="font-size:1.9rem;margin-top:10px;">Dr. Sunny Ndubuisi Okonkwo</h2>
+        <p class="tag" style="margin-top:10px;display:inline-block;">AI Strategist · Decision Intelligence Expert · Digital Transformation Leader · Data Scientist · Energy Consultant · Filmmaker · Author</p>
+        <p class="lede" style="margin-top:18px;">Dr. Okonkwo is Director of Commercial Strategy and Data, and Head of Data Analytics, Research, Intelligence and Information Management at Ikeja Electric Plc, Nigeria's largest electricity distribution company — a role he has held since 2015, alongside over fifteen years of enterprise data and analytics work spanning energy, telecoms, and banking across Nigeria and the UK.</p>
+        <p class="lede" style="margin-top:14px;">He holds a Professional Doctorate in Data Science and AI from the University of East London and is completing an MSc in Information Technology Management at Concordia University, St. Paul. He is an award-winning filmmaker and the author of a growing catalog of books on AI, data, and decision intelligence — including the #1 international bestseller <em>The AI Alchemist</em>.</p>
+        <div class="card" style="margin-top:22px;border-left:3px solid var(--ember);border-radius:var(--radius-s);">
+          <p style="font-family:var(--font-display);font-size:1.15rem;font-style:italic;color:var(--ink);">"Closing the gap between what organizations know and what they do with that knowledge."</p>
+        </div>
+        <div class="chiplist" style="margin-top:22px;">${credentials.map(c=>`<span class="chip">${c}</span>`).join('')}</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-navy tight">
+    <div class="wrap">
+      <div class="eyebrow on-navy">Global Reach</div>
+      <h2 style="font-size:1.7rem;margin-top:10px;max-width:34ch;">Built across continents, for clients across continents.</h2>
+      <p class="lede" style="margin-top:14px;max-width:60ch;">Based across Lagos, London, Minneapolis, and Atlanta, Libra Scale World is built from the ground up to serve governments, utilities, and enterprises across Africa, the Americas, Europe, and Australia.</p>
+      <div class="hero-stats" style="margin-top:36px;padding-top:0;border-top:none;">
+        ${['Lagos','London','Minneapolis','Atlanta'].map(c=>`<div class="stat"><div class="num" style="font-size:1.4rem;">${c}</div><div class="label">Base of operations</div></div>`).join('')}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap grid-2">
+      <div>
+        <div class="eyebrow">Mission</div>
+        <h2 style="font-size:1.6rem;margin-top:10px;">Building Intelligent Organizations.</h2>
+        <p class="lede" style="margin-top:14px;">We exist to help institutions turn artificial intelligence, enterprise data, and digital transformation into durable operating capability — not one-off projects.</p>
+      </div>
+      <div>
+        <div class="eyebrow burgundy">Vision</div>
+        <h2 style="font-size:1.6rem;margin-top:10px;">Transforming the Future.</h2>
+        <p class="lede" style="margin-top:14px;">A world where governments, utilities, and enterprises make decisions with the same intelligence, speed, and rigor as the world's most advanced technology companies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-surface2">
+    <div class="wrap">
+      <div class="section-head"><div><div class="eyebrow">Recognition</div><h2 style="font-size:1.6rem;margin-top:10px;">Awards</h2></div></div>
+      <div class="grid-4">
+        ${awards.map(a=>`<div class="card card-top-rule"><p style="font-size:14px;color:var(--ink-soft);">${a}</p></div>`).join('')}
+      </div>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+      <div class="grid-3">
+        ${[['Leadership','The team responsible for delivery across every Libra Scale business.'],
+           ['Partners','Technology and delivery partners extending our reach across industries.'],
+           ['Clients','Governments, utilities, and enterprises we have worked alongside.']]
+           .map(([t,d])=>`<div class="card card-top-rule"><h3 style="font-size:1.05rem;">${t}</h3><p style="color:var(--ink-soft);font-size:13.5px;margin-top:8px;">${d}</p></div>`).join('')}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="eyebrow">Impact</div>
+      <h2 style="font-size:1.8rem;margin-top:10px;max-width:32ch;">Reserved for verified outcomes and engagement results.</h2>
+      <p class="lede" style="margin-top:14px;">Libra Scale World does not publish client results without explicit sign-off — this section goes live once the first engagements are confirmed for public reference.</p>
+    </div>
+  </section>
+  `;
+}
+
+function pageBusinesses(){
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'Businesses'}])}
+      <div class="eyebrow on-navy">Our Businesses</div>
+      <h1>Five businesses. One intelligent-organization thesis.</h1>
+      <p class="lede">Think Alphabet, Tata, or Virgin — each Libra Scale business has its own identity and P&amp;L logic, while reinforcing the same underlying frameworks and brand.</p>
+    </div>
+  </div>
+  <section>
+    <div class="wrap grid-3" style="grid-template-columns:repeat(3,1fr);">
+      ${BUSINESSES.map(b=>bizCard(b)).join('')}
+    </div>
+  </section>
+  <section class="band-surface2 tight">
+    <div class="wrap">
+      <div class="eyebrow">Future Expansion</div>
+      <h2 style="font-size:1.6rem;margin-top:10px;">Built to grow without changing the architecture</h2>
+      <div class="grid-3" style="margin-top:28px;">
+        ${[['Libra Scale Ventures','Startup incubation and AI investments.'],
+           ['Libra Scale Capital','Advisory for technology and digital transformation investments.'],
+           ['Libra Scale Foundation','Social impact, AI literacy, and digital inclusion.']]
+           .map(([t,d])=>`<div class="card"><h3 style="font-size:1.05rem;">${t}</h3><p style="color:var(--ink-soft);font-size:13.5px;margin-top:8px;">${d}</p></div>`).join('')}
+      </div>
+    </div>
+  </section>
+  `;
+}
+
+const BUSINESS_DETAIL = {
+  consult: {
+    tag:'AI • Data • Strategy • Transformation', color:'c-navy',
+    intro:'Helping organizations become intelligent enterprises — from AI strategy and governance to enterprise data, digital transformation, analytics, and executive advisory.',
+    groups:[{title:'Practice Areas', links:PRACTICES.map(p=>({label:p.name, href:`/consult/${p.id}`, blurb:p.blurb}))},
+            {title:'Featured Industries', links:INDUSTRIES.slice(0,4).map(i=>({label:i.name, href:'/industries', blurb:i.blurb}))}]
+  },
+  institute: {
+    tag:'Executive Education & Professional Development', color:'c-burgundy',
+    intro:'Home of the Libra Scale World Academy — a live three-level curriculum with its own student platform and certificate engine — plus executive programs, corporate training, and certifications that build AI and data fluency across the organization.',
+    groups:[
+      {title:'Executive Education', links:['AI for Executives','Data Strategy','AI Governance','Leadership','Decision Intelligence'].map(x=>({label:x}))},
+      {title:'Corporate Training', links:[{label:'AI Bootcamps'},{label:'Power BI'},{label:'Analytics'},{label:'Executive Reporting'},{label:'Digital Transformation'},{label:'CyberMastery 60 ↗', href:'https://cybermastery.librascale.world'}]},
+      {title:'Certifications', links:['AI Governance','Enterprise Data','Decision Intelligence','Analytics Leadership','Cybersecurity & Information Security'].map(x=>({label:x}))},
+      {title:'Research', links:[{label:'White Papers', href:'/insights'},{label:'Case Studies', href:'/insights'},{label:'Executive Research', href:'/businesses/research'}]},
+    ]
+  },
+  research: {
+    tag:'Research • Benchmarking • Market Intelligence', color:'c-ember',
+    intro:'Independent research, industry surveys, and maturity benchmarks that inform how intelligent organizations are built.',
+    groups:[
+      {title:'Industry Reports', links:['Energy','AI','Government','Healthcare','Manufacturing'].map(x=>({label:x}))},
+      {title:'Surveys', links:['Executive Surveys','Technology Surveys','AI Adoption','Market Surveys'].map(x=>({label:x}))},
+      {title:'Benchmarking', links:['AI Maturity','Data Maturity','Digital Maturity','Analytics Maturity'].map(x=>({label:x}))},
+      {title:'Market Intelligence', links:['Competitive Intelligence','Industry Outlook','Emerging Technologies','Technology Trends'].map(x=>({label:x}))},
+    ]
+  },
+  media: {
+    tag:'Books • Podcast • YouTube', color:'c-burgundy',
+    intro:'Books, executive interviews, and long-form conversations that carry the Libra Scale point of view beyond the boardroom.',
+    groups:[
+      {title:'Books — Librascale Press', links:[{label:'Published Books', href:'/books'},{label:'Forthcoming Titles', href:'/books'},{label:'Book Store', href:'/books'}]},
+      {title:'Podcast', links:[{label:'The Intelligent Enterprise Podcast'}]},
+      {title:'Libra Scale TV — YouTube', links:[{label:'Watch on YouTube ↗', href:'https://youtube.com/@librascaletv'},{label:'Interviews'},{label:'Masterclasses'},{label:'Talks'}]},
+    ]
+  },
+  labs: {
+    tag:'Enterprise AI Products', color:'c-ember',
+    intro:'The innovation engine — decision intelligence software, executive dashboards, and AI governance platforms built from what Consult learns in the field.',
+    groups:[
+      {title:'AI Solutions', links:['Enterprise AI','LLMs','AI Agents','AI Governance Software','Decision Intelligence Platform'].map(x=>({label:x}))},
+      {title:'Executive AI', links:['Executive Cockpit','Scenario Planning','Board Dashboards','CEO Dashboards','Executive Analytics','Performance Dashboards'].map(x=>({label:x}))},
+      {title:'Enterprise AI Products', links:['AI Readiness Platform','AI Governance Platform','Enterprise KPI Platform','Executive Reporting Platform','Analytics Portal','Data Governance Platform'].map(x=>({label:x}))},
+    ]
+  },
+};
+
+function pageBusinessDetail(id){
+  const b = BUSINESSES.find(x=>x.id===id);
+  const d = BUSINESS_DETAIL[id];
+  if(!b||!d) return pageNotFound();
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'Businesses',href:'/businesses'},{label:b.name}])}
+      <div class="eyebrow on-navy">${d.tag}</div>
+      <h1>${b.name}</h1>
+      <p class="lede">${d.intro}</p>
+      <div class="hero-ctas"><a href="/contact" class="btn btn-primary">Talk to ${b.name.replace('Libra Scale ','')}</a></div>
+    </div>
+  </div>
+  <section>
+    <div class="wrap">
+      ${d.groups.map(g=>`
+        <div class="subgroup">
+          <div class="subgroup-head"><h3>${g.title}</h3></div>
+          <div class="grid-4">
+            ${g.links.map(l=>`
+              ${l.href ? `<a href="${l.href}" ${l.href.startsWith('http')?'target="_blank" rel="noopener"':''} class="practice-tile"><h3 style="font-size:.98rem;">${l.label}</h3>${l.blurb?`<p>${l.blurb}</p>`:''}</a>`
+                        : `<div class="practice-tile"><h3 style="font-size:.98rem;">${l.label}</h3></div>`}
+            `).join('')}
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  </section>
+  <section class="band-surface2 tight">
+    <div class="wrap">
+      <div class="cta-band" style="background:var(--navy);">
+        <div><h2>Explore the rest of the portfolio</h2><p>Every Libra Scale business shares the same frameworks and the same standard of rigor.</p></div>
+        <a href="/businesses" class="btn btn-ghost-navy" style="border-color:rgba(255,255,255,.4);color:#fff;">View all businesses</a>
+      </div>
+    </div>
+  </section>
+  `;
+}
+
+function pageConsultOverview(){
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'Services'}])}
+      <div class="eyebrow on-navy">Libra Scale Consult</div>
+      <h1>Services organized around how enterprises actually get intelligent.</h1>
+      <p class="lede">Six practice areas, one proprietary IP layer. Every engagement draws on the Libra Frameworks™ shown below.</p>
+    </div>
+  </div>
+  <section>
+    <div class="wrap grid-3">
+      ${PRACTICES.map(p=>`
+        <a href="/consult/${p.id}" class="practice-tile">
+          <span class="tag" style="align-self:flex-start;">${p.tag}</span>
+          <h3>${p.name}</h3>
+          <p>${p.blurb}</p>
+          <span class="btn-text" style="margin-top:auto;">View practice <span class="arrow">→</span></span>
+        </a>`).join('')}
+    </div>
+  </section>
+  <section class="band-navy tight">
+    <div class="wrap">
+      <div class="eyebrow on-navy">Our IP Layer</div>
+      <h2 style="font-size:1.7rem;margin-top:10px;max-width:36ch;">Frameworks & Methodologies™ — the foundation of every engagement</h2>
+      <div class="hero-ctas"><a href="/frameworks" class="btn btn-ghost-navy">See all seven frameworks</a></div>
+    </div>
+  </section>
+  `;
+}
+
+function pagePracticeDetail(id){
+  const p = PRACTICES.find(x=>x.id===id);
+  if(!p) return pageNotFound();
+  let body = '';
+  if(id==='data-analytics'){
+    body = DATA_SUBGROUPS.map(g=>`
+      <div class="subgroup">
+        <div class="subgroup-head"><h3>${g.title}</h3></div>
+        <div class="chiplist">${g.items.map(i=>`<span class="chip">${i}</span>`).join('')}</div>
+      </div>`).join('');
+  } else if(id==='digital-transformation'){
+    body = DIGITAL_SUBGROUPS.map(g=>`
+      <div class="subgroup">
+        <div class="subgroup-head"><h3>${g.title}</h3></div>
+        <div class="chiplist">${g.items.map(i=>`<span class="chip">${i}</span>`).join('')}</div>
+      </div>`).join('');
+  } else {
+    body = `<div class="subgroup"><div class="chiplist">${p.items.map(i=>`<span class="chip">${i}</span>`).join('')}</div></div>`;
+  }
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'Services',href:'/consult'},{label:p.name}])}
+      <div class="eyebrow on-navy">${p.tag} Practice</div>
+      <h1>${p.name}</h1>
+      <p class="lede">${p.blurb}</p>
+      <div class="hero-ctas"><a href="/contact" class="btn btn-primary">Discuss this practice</a></div>
+    </div>
+  </div>
+  <section>
+    <div class="wrap">${body}</div>
+  </section>
+  <section class="band-surface2 tight">
+    <div class="wrap grid-3">
+      ${PRACTICES.filter(x=>x.id!==id).slice(0,3).map(x=>`
+        <a href="/consult/${x.id}" class="practice-tile"><h3 style="font-size:1rem;">${x.name}</h3><p>${x.blurb}</p></a>`).join('')}
+    </div>
+  </section>
+  `;
+}
+
+function pageFrameworks(){
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'Frameworks'}])}
+      <div class="eyebrow on-navy">Frameworks & Methodologies™</div>
+      <h1>We don't just sell consulting hours. We sell a way of solving the problem.</h1>
+      <p class="lede">Seven proprietary frameworks form the foundation of every Libra Scale Consult engagement, Institute program, Research publication, Labs product, and Media title.</p>
+    </div>
+  </div>
+  <section>
+    <div class="wrap grid-3">
+      ${FRAMEWORKS.map((f,i)=>`
+        <div class="framework-card">
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <div class="fnum">0${i+1} / 0${FRAMEWORKS.length}</div>
+            ${f.flag?`<span class="pill" style="border-color:var(--ember);color:var(--ember);">${f.flag}</span>`:''}
+          </div>
+          <h3>${f.name}</h3>
+          <p>${f.blurb}</p>
+        </div>`).join('')}
+    </div>
+  </section>
+  <section class="band-surface2 tight">
+    <div class="wrap">
+      <div class="cta-band" style="background:var(--navy);">
+        <div><h2>Bring a framework into your organization</h2><p>Every framework is available through Consult engagements, Institute certification, or Labs software.</p></div>
+        <a href="/contact" class="btn btn-primary">Book a Consultation</a>
+      </div>
+    </div>
+  </section>
+  `;
+}
+
+function pageIndustries(){
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'Industries'}])}
+      <div class="eyebrow on-navy">Industries</div>
+      <h1>Sector depth behind the frameworks.</h1>
+      <p class="lede">The same Libra Frameworks™, applied with the context each sector requires.</p>
+    </div>
+  </div>
+  <section>
+    <div class="wrap grid-3">
+      ${INDUSTRIES.map((ind,i)=>`
+        <div class="industry-tile">
+          <div class="idx">0${i+1}</div>
+          <h3 style="font-size:1.05rem;">${ind.name}</h3>
+          <p style="color:var(--ink-soft);font-size:13.5px;">${ind.blurb}</p>
+        </div>`).join('')}
+    </div>
+  </section>
+  `;
+}
+
+function pageInsights(){
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'Insights'}])}
+      <div class="eyebrow on-navy">Insights</div>
+      <h1>Where Consult's thinking becomes public.</h1>
+      <p class="lede">Blog, white papers, case studies, and newsletters — the reading hub that draws on Research, Institute, and Consult.</p>
+    </div>
+  </div>
+  <section class="tight">
+    <div class="wrap">
+      <div class="chiplist">${INSIGHT_TOPICS.map(t=>`<span class="pill">${t}</span>`).join('')}</div>
+    </div>
+  </section>
+  <section class="tight">
+    <div class="wrap grid-3">
+      ${ARTICLES.concat(ARTICLES).slice(0,6).map(a=>articleCard(a)).join('')}
+    </div>
+  </section>
+  <section class="band-surface2 tight">
+    <div class="wrap grid-2">
+      <div><h2 style="font-size:1.4rem;">White Papers & Case Studies</h2><p class="lede" style="margin-top:10px;">Formal research and applied case work from Libra Scale Research and Consult.</p></div>
+      <div class="card"><form class="stack" onsubmit="event.preventDefault();this.querySelector('.f-ok').style.display='block';">
+        <div class="field"><label>Get the Insights newsletter</label><input type="email" placeholder="you@company.com" required></div>
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+        <div class="f-ok" style="display:none;color:var(--ember);font-size:13px;">Thanks — you're on the list.</div>
+      </form></div>
+    </div>
+  </section>
+  `;
+}
+
+function pageSpeaking(){
+  const items = ['Keynotes','Conferences','Corporate Events','Masterclasses','Board Retreats','Executive Sessions'];
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'Speaking'}])}
+      <div class="eyebrow on-navy">Speaking</div>
+      <h1>The Libra Scale point of view, on stage.</h1>
+      <p class="lede">Keynotes and executive sessions built from the same frameworks behind Consult, Institute, and Research.</p>
+      <div class="hero-ctas"><a href="/contact" class="btn btn-primary">Submit a Speaking Request</a></div>
+    </div>
+  </div>
+  <section>
+    <div class="wrap grid-3">
+      ${items.map(x=>`<div class="practice-tile"><h3 style="font-size:1rem;">${x}</h3></div>`).join('')}
+    </div>
+  </section>
+  `;
+}
+
+function bookCard(b){
+  const coverStyle = b.img
+    ? `background-color:var(--navy-deep);background-image:url('${b.img}');background-size:${b.fit||'cover'};background-position:center;background-repeat:no-repeat;`
+    : `background:${b.color};`;
+  return `<div class="card">
+    <div class="book-cover" style="${coverStyle}">${b.img?'':b.title}</div>
+    <span class="tag" style="margin-top:16px;align-self:flex-start;">${b.tag}</span>
+    <h3 style="font-size:1rem;margin-top:10px;">${b.title}</h3>
+    ${b.sub?`<p style="color:var(--ink-soft);font-size:13px;margin-top:6px;">${b.sub}</p>`:''}
+  </div>`;
+}
+function pageBooks(){
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'Media',href:'/businesses/media'},{label:'Books'}])}
+      <div class="eyebrow on-navy">Librascale Press</div>
+      <h1>Books by Dr. Sunny Ndubuisi Okonkwo</h1>
+      <p class="lede">Titles curated for the Libra Scale World audience — the broader Librascale Press catalog lives on the author's own site.</p>
+    </div>
+  </div>
+  <section>
+    <div class="wrap">
+      <div class="subgroup-head"><h3>Published</h3></div>
+      <div class="grid-3">${BOOKS_PUBLISHED.map(bookCard).join('')}</div>
+    </div>
+  </section>
+  <section class="band-surface2 tight">
+    <div class="wrap">
+      <div class="subgroup-head"><h3>Forthcoming</h3></div>
+      <div class="grid-3">${BOOKS_FORTHCOMING.map(bookCard).join('')}</div>
+    </div>
+  </section>
+  `;
+}
+
+function pageContact(){
+  const cards = [
+    ['Book a Consultation','Start an engagement with Libra Scale Consult.'],
+    ['Schedule Executive Advisory','CEO, CIO, CAIO, or CDO advisory support.'],
+    ['Corporate Training Inquiry','Bring the Institute in-house.'],
+    ['Speaking Request','Book a keynote or executive session.'],
+    ['Research Partnership','Co-develop a report or benchmark study.'],
+    ['Media Inquiry','Press, podcast, or interview requests.'],
+    ['General Contact','Anything else — we'.concat("'ll route it to the right team.")],
+  ];
+  return `
+  <div class="page-hero">
+    <div class="wrap">
+      ${crumbs([{label:'Home',href:'/'},{label:'Contact'}])}
+      <div class="eyebrow on-navy">Contact</div>
+      <h1>Tell us what you're building.</h1>
+      <p class="lede">Choose the fastest path to the right team, or send a general inquiry below.</p>
+    </div>
+  </div>
+  <section class="tight">
+    <div class="wrap grid-3">
+      ${cards.map(([t,d])=>`<div class="contact-card"><h3>${t}</h3><p>${d}</p></div>`).join('')}
+    </div>
+  </section>
+  <section class="band-surface2">
+    <div class="wrap" style="max-width:720px;">
+      <h2 style="font-size:1.4rem;">Send a message</h2>
+      <form class="stack" style="margin-top:24px;" onsubmit="handleContactSubmit(event)">
+        <div class="field-row">
+          <div class="field"><label>Full name</label><input type="text" required></div>
+          <div class="field"><label>Work email</label><input type="email" required></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label>Organization</label><input type="text"></div>
+          <div class="field"><label>Reason for contact</label>
+            <select>${cards.map(([t])=>`<option>${t}</option>`).join('')}</select>
+          </div>
+        </div>
+        <div class="field"><label>Message</label><textarea rows="4"></textarea></div>
+        <button class="btn btn-primary" type="submit" style="align-self:flex-start;">Send Message</button>
+      </form>
+      <div id="contact-success">Thanks — your message has been recorded in this preview. A real submission will route to the appropriate Libra Scale team.</div>
+    </div>
+  </section>
+  `;
+}
+function handleContactSubmit(e){
+  e.preventDefault();
+  document.getElementById('contact-success').style.display='block';
+  e.target.reset();
+}
+
+function pageNotFound(){
+  return `<section><div class="wrap" style="text-align:center;padding:80px 0;">
+    <div class="eyebrow">404</div>
+    <h1 style="margin-top:10px;">This page hasn't been built yet.</h1>
+    <p class="lede" style="margin:16px auto 0;">Part of the full-sitemap skeleton still pending content.</p>
+    <a href="/" class="btn btn-primary" style="margin-top:28px;">Back to Home</a>
+  </div></section>`;
+}
+
+/* ============================================================
+   ROUTER
+   ============================================================ */
+function route(){
+  const hash = location.hash || '/';
+  const parts = hash.replace('/','').split('/').filter(Boolean);
+  const app = document.getElementById('app');
+  let html = '';
+
+  if(parts.length===0) html = pageHome();
+  else if(parts[0]==='about') html = pageAbout();
+  else if(parts[0]==='businesses' && parts.length===1) html = pageBusinesses();
+  else if(parts[0]==='businesses' && parts.length===2) html = pageBusinessDetail(parts[1]);
+  else if(parts[0]==='consult' && parts.length===1) html = pageConsultOverview();
+  else if(parts[0]==='consult' && parts.length===2) html = pagePracticeDetail(parts[1]);
+  else if(parts[0]==='frameworks') html = pageFrameworks();
+  else if(parts[0]==='industries') html = pageIndustries();
+  else if(parts[0]==='insights') html = pageInsights();
+  else if(parts[0]==='speaking') html = pageSpeaking();
+  else if(parts[0]==='books') html = pageBooks();
+  else if(parts[0]==='contact') html = pageContact();
+  else html = pageNotFound();
+
+  app.innerHTML = `<div class="fade-in">${html}</div>`;
+  window.scrollTo(0,0);
+  closeMobileNav();
+
+  document.querySelectorAll('.navlink').forEach(a=>{
+    a.classList.toggle('active', a.getAttribute('href')===('/'+parts[0]) || (parts.length===0 && a.getAttribute('href')==='/'));
+  });
+}
+
+renderPrimaryNav();
+renderMobileNav();
+renderFooter();
+</script>
+</body>
+</html>
