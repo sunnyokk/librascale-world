@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://librascaleworld.com/sitemap.xml
+Sitemap: https://thelibrascaleworld.com/sitemap.xml
